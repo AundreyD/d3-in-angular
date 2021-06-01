@@ -52,7 +52,7 @@ export class OrderStatusComponent implements OnInit, OnDestroy, AfterContentInit
         this.updateStates();
         this.chart.data = [...this.chartData];
       }
-    }, 1000);
+    }, 10000);
 
   }
 
